@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- style link -->
+    <link rel="stylesheet" href="app.css">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>GYM & FITNESS</title>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 text-uppercase sticky-top shadow-lg">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">Fitness & Gym</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="Mynavbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item mx-2">
+                    <a class="nav-link active" href="#about" aria-current="page">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#plan">Plan</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link " href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#FAQ">FAQ</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+    
+            <ul class="navbar-nav">
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#login-offcanvas" data-bs-toggle="offcanvas" aria-current="page">Sign in</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#Signup-offcanvas" data-bs-toggle="offcanvas">Sign up</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <header id="header">
+        <video src="images/gymvideo.mp4"  autoplay loop muted></video>
+        <div class="overlay"></div>
+        <div class="container py-5">
+            <h1 class="text-white" style="font-size: 5rem;" data-aos="fade-right" data-aos-duration="2000">BE FITNESS</h1>
+            <h2 class="text-white" style="font-size: 3rem;" data-aos="fade-left"data-aos-duration="2000">& BE STRONG</h2>
+            <p class="text-white" style="max-width: 500px;" data-aos="fade-right"data-aos-duration="1000">
+                Embrace the journey of fitness as a testament to your inner strength and resilience. With each workout, challenge yourself to push beyond your limits and discover the depths of your capabilities. In the pursuit of strength, both physical and mental, lies the path to a healthier, happier you.</p>
+            <button class="btn btn-danger" href="#Signup-offcanvas" data-bs-toggle="offcanvas" data-aos="fade-left"data-aos-duration="3000">Join US</button>
+        </div>
+        <div class="container py-5" data-aos="fade-right" data-aos-duration="2000">
+            <h3 class="text-white">Log In</h3>
+            <form action="" style="max-width: 300px;">
+                <div class="mb-3">
+                    <input type="text" class="form-control border border-danger" placeholder="Email">  
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control border border-danger" placeholder="Password"> 
+                </div>
+                <button class="btn btn-danger">Login</button>
+            </form>
+        </div>
+    </header>
+
+    <section id="about" class="container p-5" >
+        <div class="sub-heading" data-aos="fade-left">About Us</div>
+        <div class="main-heading" data-aos="fade-right">Who We Are</div>
+        <div class="headingline" data-aos="zoom-in"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+                <p class="text-white" style="text-indent: 30px;">
+                    Welcome to Gym&Fitness Gym, where sweat meets success and determination fuels transformation! Step into our world of iron and determination, where every drop of sweat is a testament to your commitment to a healthier, stronger you. Here, amidst the clinking of weights and the rhythmic beat of heart-pounding music, you'll find a community dedicated to pushing boundaries and achieving greatness. Whether you're a seasoned athlete or a newcomer to the fitness scene, our state-of-the-art facilities and expert trainers are here to support you on your journey to peak performance. Get ready to unleash your potential and redefine what it means to be fit and fabulous at Gym&Fitness Gym.
+                </p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <img src="images/3.jpg" class="img-fluid rounded-1" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="service" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">Our Services</div>
+        <div class="main-heading" data-aos="fade-right">What We Offer</div>
+        <div class="headingline" data-aos="zoom-in"></div>
+        <div class="row">
+            <div class="col-md-5" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+                <img src="images/4.jpg" class="main-img img-fluid my-5" alt="" style="max-height: 650px;" >
+            </div>
+            <div class="col-md-7">
+                <div class="card service-card overflow-hidden bg-light my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center py-5 text-dark">
+                            <h5>Retail Merchandise</h5>
+                            <p style="font-size: 0.9rem;">We're not just about building muscles; we're about cultivating style and functionality in your workout wardrobe. Explore our curated selection of activewear, accessories, and fitness gadgets designed to elevate your gym experience.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-light my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center py-5 text-dark">
+                            <h5>Online Personal Training</h5>
+                            <p style="font-size: 0.9rem;">Our platform offers expert coaching, tailored workout plans, and real-time feedback to maximize your results and keep you motivated. Get ready to elevate your gym sessions to new heights with our innovative Online Personal Training at the gym.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-light my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center py-5 text-dark">
+                            <h5>Personal Training</h5>
+                            <p style="font-size: 0.9rem;">With our expert trainers by your side, every session becomes a step closer to your goals. Say goodbye to guesswork and hello to targeted workouts tailored to your needs. Get ready to unlock your full potential and achieve unparalleled results with our Personal Training at the gym.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/7.jpg" class="img-fluid mt-4" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="plan" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">Pricing Table</div>
+        <div class="main-heading" data-aos="fade-right">Membership Plan</div>
+        <div class="headingline" data-aos="zoom-in"></div>
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                <div class="card text-center bg-dark border-0">
+                    <div class="class-header text-white">
+                        <h4>$<span class="fs-1">25</span>/Month</h4>
+                    </div>
+                    <div class="alert bg-warning rounded-0 fw-bold">Basic Membership</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Access to gym facilities during standard operating hours.</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Use of basic gym equipment such as treadmills, stationary bikes, and free weights.</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Limited group fitness classes.</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">No additional perks or amenities beyond standard gym access.
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                <div class="card text-center bg-dark border border-2 border-danger plan-2-card">
+                <div class="class-header text-white">
+                    <h4>$<span class="fs-1">79</span>/Month</h4>
+                </div>
+                <div class="alert bg-danger rounded-0 fw-bold">Lean Membership</div>
+                <div class="recommended">Recommended</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-light my-2 border-bottom">All benefits of the Basic Membership.
+                        </li>
+                        <li class="list-group-item bg-transparent text-light my-2 border-bottom">Extended access to gym facilities, including early morning or late-night hours.
+                        </li>
+                        <li class="list-group-item bg-transparent text-light my-2 border-bottom">Access to a wider range of equipment, including specialized machines and resistance training gear.
+                        </li>
+                        <li class="list-group-item bg-transparent text-light my-2 border-bottom">Increased variety of group fitness classes, including yoga, Pilates, and HIIT.
+                        </li>
+                        <li class="list-group-item bg-transparent text-light my-2">
+                            <button class="btn btn-danger" href="#Signup-offcanvas" data-bs-toggle="offcanvas">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                <div class="card text-center bg-dark border-0">
+                    <div class="class-header text-white">
+                        <h4>$<span class="fs-1">99</span>/Month</h4>
+                    </div>
+                    <div class="alert bg-warning rounded-0 fw-bold">Jacked Membership</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">All benefits of the Lean Membership.
+                            </li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Unlimited access to gym facilities, including 24/7 availability.
+                            </li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Priority booking for group fitness classes and personal training sessions.
+                            </li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Additional amenities such as sauna, steam room, towel service, and locker room privileges.
+                            </li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Discounts on personal training sessions, retail merchandise, and partner services.
+                            </li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Access to exclusive member events, workshops, and seminars focused on health and wellness.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">Testimonial</div>
+        <div class="main-heading" data-aos="fade-right">What Our Clients Say</div>
+        <div class="headingline" data-aos="zoom-in"></div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                    <div class="row gy-2">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="card border-0 overflow-hidden bg-dark">
+                                <div class="row">
+                                    <div class="col-sm-7 py-3 px-4">
+                                        <h4 class="text-white">Emma</h4>
+                                        <h6 class="text-warning">Client</h6>
+                                        <p class="text-white">"Great gym with top-notch equipment and knowledgeable trainers - perfect for serious fitness enthusiasts!"</p>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-5">
+                                        <img src="images/client1.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                        <div class="card border-0 overflow-hidden bg-dark">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">Britney</h4>
+                                    <h6 class="text-warning">Client</h6>
+                                    <p class="text-white">"Clean, spacious, and welcoming atmosphere makes every workout a pleasure. Highly recommended!"</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/client2.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gy-2">
+                    <div class="col-lg-6"data-aos="fade-right">
+                        <div class="card border-0 overflow-hidden bg-dark">
+                            <div class="row ">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">Chris</h4>
+                                    <h6 class="text-warning">Client</h6>
+                                    <p class="text-white">"An excellent variety of classes catering to all fitness levels. Always leave feeling energized and accomplished."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/client3.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"data-aos="fade-left">
+                    <div class="card border-0 overflow-hidden bg-dark">
+                        <div class="row ">
+                            <div class="col-sm-7 py-3 px-4">
+                                <h4 class="text-white">Violet Kim</h4>
+                                <h6 class="text-warning">Client</h6>
+                                <p class="text-white">"Fantastic gym with friendly staff and motivating atmosphere. The perfect place to crush your fitness goals!"</p>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <img src="images/client4.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gy-2">
+                    <div class="col-lg-6"data-aos="fade-right">
+                        <div class="card border-0 overflow-hidden bg-dark">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">Morgan</h4>
+                                    <h6 class="text-warning">Client</h6>
+                                    <p class="text-white">"Exceptional facilities combined with personalized training programs make this gym a cut above the rest. Worth every penny!"</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/client5.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"data-aos="fade-right">
+                    <div class="card border-0 overflow-hidden bg-dark">
+                        <div class="row">
+                            <div class="col-sm-7 py-3 px-4">
+                                <h4 class="text-white">Jenn</h4>
+                                <h6 class="text-warning">Client</h6>
+                                <p class="text-white">"Love the convenience of 24/7 access and the wide range of equipment available. Best gym in town!"</p>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <img src="images/client6.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>   
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+    <section id="news" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">Recent Blog</div>
+        <div class="main-heading" data-aos="fade-right">Our Latest News</div>
+        <div class="headingline"data-aos="zoom-in"></div>
+        <div class="row gy-3" data-aos="zoom-in">
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-dark text-white">
+                <div class="card-header">
+                    <img src="images/1.jpg" class="img-fluid border border-4 border-danger" alt="">
+                </div>
+                <div class="card-body">
+                    <h6 class="text-warning">Blog One</h6>
+                    <h5>How to fit your body</h5>
+                    <p>Achieving your ideal body isn't just about aesthetics; it's about feeling strong, healthy, and confident in your skin. Start by setting realistic goals and creating a balanced workout routine that includes cardio, strength training, and flexibility exercises. Remember to nourish your body with wholesome foods and stay hydrated throughout the day. </p>
+                    <div>
+                        <span><i class="bi bi-alarm-fill"></i> 15m | April</span>
+                        <span class="float-end"><i class="bi bi-chat-fill"></i> 35</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-dark text-white">
+                <div class="card-header">
+                    <img src="images/2.jpg" class="img-fluid border border-4 border-danger" alt="">
+                </div>
+                <div class="card-body">
+                    <h6 class="text-warning">Blog Two</h6>
+                    <h5>Mass Gain More!</h5>
+                    <p> Say goodbye to plateaus and hello to gains as you embark on this transformative journey with us. Get ready to pack on the muscle and unleash your full potential with "Mass Gain More!"</p>
+                    <div>
+                        <span><i class="bi bi-alarm-fill"></i> 3hr | Franklin</span>
+                        <span class="float-end"><i class="bi bi-chat-fill"></i> 87</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card bg-dark text-white">
+                <div class="card-header">
+                    <img src="images/cleint5.jpg" class="img-fluid border border-4 border-danger" alt="">
+                </div>
+                <div class="card-body">
+                    <h6 class="text-warning">Blog One</h6>
+                    <h5>Lean Body in 3 months</h5>
+                    <p>Transform your physique and sculpt a lean body in just three months with our comprehensive program. Through a combination of targeted workouts, clean eating, and strategic supplementation, you'll shed fat and reveal toned muscles. </p>
+                    <div>
+                        <span><i class="bi bi-alarm-fill"></i> 45m | John</span>
+                        <span class="float-end"><i class="bi bi-chat-fill"></i> 64</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="FAQ" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">Frequently Ask Question</div>
+        <div class="main-heading"data-aos="fade-right">FAQ</div>
+        <div class="headingline"data-aos="zoom-in"></div>
+
+        <div class="accordion" id="accordionExample" data-aos="fade-left">
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How to Sign Up?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Signing up is quick and easy! Simply visit our website and locate the "Sign Up" button. From there, you'll be directed to a registration page where you can fill out your personal information, choose your desired membership plan, and complete the payment process. Once your registration is complete, you'll receive a confirmation email with further instructions on accessing your account and getting started on your fitness journey. If you encounter any issues during the sign-up process, don't hesitate to reach out to our customer support team for assistance. We're here to help you every step of the way!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is Fitness?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    Fitness encompasses a holistic approach to physical well-being, encompassing strength, endurance, flexibility, and overall health. It's not just about the ability to lift heavy weights or run long distances; rather, it's a combination of cardiovascular fitness, muscular strength and endurance, flexibility, and body composition. Achieving fitness involves regular exercise, proper nutrition, adequate rest, and a balanced lifestyle. It's about feeling strong, energized, and capable of performing daily activities with ease. At our gym, we're committed to helping you achieve your fitness goals through personalized training programs, expert guidance, and a supportive community environment.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 How much for the Personal Trainer?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>The cost of personal training varies depending on factors such as the trainer's experience, qualifications, location, and the frequency and duration of sessions. At our gym, we offer competitive rates for personal training sessions tailored to your individual goals and preferences. To get an accurate estimate of pricing, we recommend contacting our staff directly or visiting our facility for a consultation. Rest assured, investing in a personal trainer is an investment in your health and fitness journey, providing invaluable guidance, motivation, and support to help you achieve your goals effectively and safely.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How to Sign Up for Membership?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Signing up for membership is simple and convenient! You can sign up for membership in person at our gym reception desk or online through our website. If you prefer to sign up online, just visit our website and navigate to the membership section. From there, you'll find a "Sign Up" or "Join Now" button, which will guide you through the registration process. You'll need to provide some basic personal information, choose your desired membership plan, and complete the payment process. Once your registration is complete, you'll receive a confirmation email with details about accessing your membership benefits. If you have any questions or need assistance during the sign-up process, feel free to contact our friendly staff for support. We're here to help you get started on your fitness journey!
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="container-fluid p-5">
+        <div class="sub-heading" data-aos="fade-left">Contact Us</div>
+        <div class="main-heading" data-aos="fade-right">+123 123 45 64</div>
+        <div class="headingline" data-aos="zoom-in"></div>
+        <button class="btn btn-danger" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">Sign Up Now</button>
+    </section>
+
+    <section id="footer" class="container-fluid p-5 bg-dark text-white border border-0">
+        <div class="row g-5">
+            <div class="col-md-4 ">
+                <div class="sub-heading">GYM & FITNESS</div>
+                <div class="headingline"></div>
+                <p>"Strength doesn't come from what you can do. It comes from overcoming the things you once thought you couldn't."</p>
+                <div>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sub-heading">QUICK CONTACT</div>
+                <div class="headingline"></div>
+                <ul>
+                    <li><i class="bi bi-geo-alt-fill text-danger"></i> No.123, Dagon Street, Yangon, Burma</li>
+                    <li><i class="bi bi-telephone-fill text-danger"></i> +123 123 45 64</li>
+                    <li><i class="bi bi-envelope-fill text-danger"></i> Gym&Fotness@gmail.com</li>
+                    <li><i class="bi bi-globe text-danger"></i> www.gym&fitness.com</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="sub-heading">MESSAGE US</div>
+                <div class="headingline"></div>
+
+                <form action="">
+                    <div class="mb-3">
+                        <input type="text" class="form-control border border-danger" placeholder="Your Email">  
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="" id="" class="form-control border border-danger" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn btn-danger"><i class="bi bi-send-fill"></i> Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="copyright" class="container-fluid bg-dark text-white p-5 border border-0">
+        <p class="text-center">&copy; Copyright & all right reserved by Kaung Myat Thuta</p>
+    </section>
+
+    <a href="#header" class="up-arrow"><i class="bi bi-arrow-up"></i></a>
+
+    <section id="off-canvas">
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="login-offcanvas"          aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="sub-heading text-danger">LOGIN FORM</div>
+                <div class="headingline"></div>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control border-danger">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Password</label>
+                        <input type="text" class="form-control border-danger">
+                    </div>
+                    <button class="btn btn-danger float-end"><i class="bi bi-send-fill"></i> Sign In</button>
+                    <div class="sign-in">
+                        <p>Not a member? </p><a href="#Signup-offcanvas" data-bs-toggle="offcanvas"> Sign up here</a>
+                    </div>
+                </form>
+            </div>
+            </div>
+        
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="Signup-offcanvas"          aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="sub-heading text-danger">Sign Up FORM</div>
+                    <div class="headingline"></div>
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="">Your Name</label>
+                            <input type="text" class="form-control border-danger">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Email</label>
+                            <input type="text" class="form-control border-danger">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Password</label>
+                            <input type="text" class="form-control border-danger">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Confirm Password</label>
+                            <input type="text" class="form-control border-danger">
+                        </div>
+                        <button class="btn btn-danger float-end"><i class="bi bi-send-fill"></i> Sign Up</button>
+                        <div class="sign-in">
+                            <p>Already a member? </p><a href="#login-offcanvas" data-bs-toggle="offcanvas"> Sign in here</a>
+                        </div>
+                    </form>
+                </div>
+                </div>
+    </section>
+
+
+
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
